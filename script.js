@@ -18,6 +18,32 @@
 // console.log(j); // Uncaught ReferenceError: j is not defined
 
 
+// function foo() {
+//   var a = 10;
+// }
+//
+// console.log(a); // ???
+
+
+// function foo() {
+//   var a = 10;
+// }
+//
+// foo();
+//
+// console.log(a); // ???
+
+
+// (function() {
+//     var a = 10;
+// }());
+//
+// console.log(a); // ???
+//
+// {
+//
+// }
+
 // {
 //   let foo = 'bar'
 //   console.log(foo);
@@ -69,6 +95,34 @@
 // var [sec, min, hour, day] = arr;
 //
 // console.log(hour); // 100
+
+
+// let data = {
+//   name: 'John',
+//   surname: 'Doe',
+//   occupation: 'Developer',
+//   company: {
+//     name: 'Freelance',
+//     rate: 15
+//   }
+// };
+//
+// let {name, surname, occupation} = data;
+//
+// console.log(occupation);
+//
+// let {name: x, company: {name: y}} = data;
+//
+// console.log(x, y);
+
+
+
+// let list = [1, 10, 100];
+//
+// let [a = 0, b = 1, c = 2, d = 3, e] = list;
+//
+// console.log(a, b, c, d, e);
+
 
 
 // class Beer {
